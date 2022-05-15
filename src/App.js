@@ -1,14 +1,20 @@
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Store from "./components/Store";
-import { BrowerRouter ,Route , Switch } form "react-router-dom";
+import Error from "./components/Error";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Nav />
-      <About />
-      <Store />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact element={<Nav />} />
+          <Route path="/about" exact element={<About />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
