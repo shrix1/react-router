@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-//LInk is react-router thing used to navigate to the path given
+//"Link" -> react-router thing used to navigate to the path given
 // it act like HTML a tag with href in it
+//its a paired tag path is setted as "to" attribute
 
 const Nav = () => {
   return (
