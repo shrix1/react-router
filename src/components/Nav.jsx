@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-//useNavigate is hook used in reactRouting
+//LInk is react-router thing used to navigate to the path given
+// it act like HTML a tag with href in it
 
 const Nav = () => {
   return (

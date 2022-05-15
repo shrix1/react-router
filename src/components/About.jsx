@@ -6,6 +6,7 @@ const About = () => {
   const pageRedirect = () => {
     navigate("/");
   };
+
   return (
     <>
       <h1
