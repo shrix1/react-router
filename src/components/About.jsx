@@ -1,4 +1,10 @@
+import { useNavigate } from "react-router";
+
 const About = () => {
+  const navigate = useNavigate();
+  const pageRedirect = () => {
+    navigate("/");
+  };
   return (
     <>
       <h1
@@ -7,6 +13,12 @@ const About = () => {
       >
         About page
       </h1>
+      <button
+        onClick={pageRedirect}
+        className="border-4 border-slate-800 bg-sky-400 ml-[850px] mt-6 p-4"
+      >
+        go to main page
+      </button>
     </>
   );
 };
