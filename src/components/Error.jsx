@@ -1,11 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router";
+//useNavigate is hook used in reactRouting
 
 export default function Error() {
   const navigate = useNavigate();
   const pageRedirect = () => {
     navigate("/");
   };
+  //syntax = hook("path") => eg:- navigate("/about")
   return (
     <>
       <h1 className="text-6xl text-center mt-10 bg-sky-100 h-[90px] text-slate-600">
@@ -19,4 +21,5 @@ export default function Error() {
       </button>
     </>
   );
+  //by onClick to do the hook to navigate to main page
 }

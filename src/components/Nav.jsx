@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+//useNavigate is hook used in reactRouting
+
 const Nav = () => {
   return (
     <>
