@@ -15,10 +15,11 @@ const About = () => {
       >
         About page
       </h1>
+
       <button
         onClick={pageRedirect}
-        className="border-4 border-slate-800 bg-sky-400 ml-[850px] 
-        mt-6 p-4 rounded-md"
+        className="border-4 border-slate-800 bg-sky-400 
+        mt-6 p-4 rounded-md ml-[850px]"
       >
         go to main page
       </button>

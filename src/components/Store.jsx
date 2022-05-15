@@ -15,6 +15,7 @@ const Store = () => {
       >
         store page
       </h1>
+
       <button
         onClick={pageRedirect}
         className="border-4 border-slate-800 bg-sky-400 ml-[850px] mt-6 
@@ -22,8 +23,15 @@ const Store = () => {
       >
         go to main page
       </button>
+
+      {/*using link router thing to same as useNavigate*/}
       <Link to="/">
-        <button>go </button>
+        <button
+          className="ml-[100px] border-4 border-slate-800 bg-sky-400 mt-6 
+        p-4 rounded-md"
+        >
+          go
+        </button>
       </Link>
     </>
   );
