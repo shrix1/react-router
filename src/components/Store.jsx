@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+//useNavigate is hook used in reactRouting
 
 const Store = () => {
   const navigate = useNavigate();
