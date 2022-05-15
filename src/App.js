@@ -1,7 +1,13 @@
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Store from "./components/Store";
+
 function App() {
   return (
     <>
-      <h1>hello</h1>
+      <Nav />
+      <About />
+      <Store />
     </>
   );
 }
