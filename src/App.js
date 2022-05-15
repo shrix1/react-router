@@ -9,7 +9,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" exact element={<Nav />} />
+          <Route path="/" element={<Nav />} />
           <Route path="/about" element={<About />} />
           <Route path="/store" element={<Store />} />
           <Route path="*" element={<Error />} />
