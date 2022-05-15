@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router";
+import { useNavigate, Link } from "react-router-dom";
 //useNavigate is hook used in reactRouting
 
 const Store = () => {
@@ -18,6 +18,9 @@ const Store = () => {
       >
         go to main page
       </button>
+      <Link to="/">
+        <button>go </button>
+      </Link>
     </>
   );
 };

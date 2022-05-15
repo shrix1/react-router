@@ -32,3 +32,5 @@ export default App;
 //                  "element" attribute
 
 //path="*" => is random wrong stuff eg;- /sasasa it route top error page
+
+//both the useNavigate and Link does the same job
