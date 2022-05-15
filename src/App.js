@@ -33,4 +33,9 @@ export default App;
 
 //path="*" => is random wrong stuff eg;- /sasasa it route top error page
 
-//both the useNavigate and Link does the same job
+//both the |useNavigate| and |Link|does the same job
+
+//there is another hook called |useParams| =>
+//             we neeed to set path to some thing like path="/about/:username
+//             and in componenst let {username } = useParams()
+//             and now in like we type "/about/shri" => it naviagte to shri page
